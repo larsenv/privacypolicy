@@ -1,7 +1,7 @@
 {
   "name": "Great Calculator",
   "short_name": "Great Calculator",
-  "description": "Official website, privacy policy, support, accessibility, age suitability, license agreement, and content-rights pages for Great Calculator.",
+  "description": "Official website for Great Calculator, including product details, privacy, support, accessibility, and privacy choices.",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0b1220",

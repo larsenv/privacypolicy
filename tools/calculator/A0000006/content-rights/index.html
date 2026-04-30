@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Public content-rights information for Great Calculator.">
-  <meta name="gc-doc-revision" content="2026-04-15-a0000006-appstore-website-refresh">
+  <meta name="description" content="Content-rights information for Great Calculator.">
+  <meta name="gc-doc-revision" content="2026-04-15-a0000006-public-pages-v89">
   <meta name="theme-color" content="#2563eb">
   <meta name="color-scheme" content="light dark">
   <meta property="og:title" content="Great Calculator Content Rights">
-  <meta property="og:description" content="Public content-rights information for Great Calculator.">
+  <meta property="og:description" content="Content-rights information for Great Calculator.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="../assets/img/social-card.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Great Calculator Content Rights">
-  <meta name="twitter:description" content="Public content-rights information for Great Calculator.">
+  <meta name="twitter:description" content="Content-rights information for Great Calculator.">
   <meta name="twitter:image" content="../assets/img/social-card.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16.png">
   <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="stylesheet" href="../assets/styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
   <title>Great Calculator Content Rights</title>
 </head>
 <body>
@@ -38,79 +38,29 @@
     </div>
   </header>
   <main id="main">
-  <section class="hero">
-    <div class="container">
-      <div class="hero__panel">
-        <div class="breadcrumbs"><a href="../">Home</a> / Content Rights</div>
-        <div class="hero__grid">
-          <div>
-            <span class="hero__eyebrow">Content Rights</span>
-            <h1>Public content-rights information for Great Calculator.</h1>
-            <p>Great Calculator is primarily an on-device calculator and utility app. This page explains the app’s public third-party content path for optional exchange-rate data.</p>
-            <div class="hero__actions"><a class="button-link button-link--primary" href="../support/">Support</a><a class="button-link button-link--secondary" href="../privacy/">Privacy Policy</a></div>
-          </div>
-          <aside class="contact-card card--accent">
-            <h3>Content-rights posture</h3>
-            <p>This page is limited to the app’s actual public third-party content path: optional exchange-rate data used for user-requested currency conversion.</p>
-          </aside>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__panel article-prose">
+          <div class="breadcrumbs"><a href="../">Home</a> / Content Rights</div>
+          <span class="hero__eyebrow">Rights</span>
+          <h1>Content and data-source rights.</h1>
+          <p>Most Great Calculator workflows are computed locally by the app. The current release's notable external content path is optional exchange-rate data used by the Money calculator when a live rate is requested.</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  
-  <section class="section">
-    <div class="container">
-      <div class="section__panel">
-        <div class="section__header"><span class="kicker">Summary</span><h2>Primarily on-device, with one optional third-party data path</h2></div>
-        <div class="cards">
-          <article class="card"><h3>What the app mainly uses</h3><p>Great Calculator is primarily an on-device utility app for math, graphing, geometry, time, conversion, finance, counting, and number-analysis workflows.</p></article>
-          <article class="card"><h3>Third-party content path</h3><p>The current release can optionally access exchange-rate data for the Currency workflow in the Money calculator when the user explicitly requests a rate lookup.</p></article>
-          <article class="card"><h3>What the app does not include</h3><p>The app does not include user-uploaded media, music streaming, video streaming, news feeds, celebrity content, or social-content catalogs.</p></article>
-          <article class="card"><h3>User control</h3><p>Most app features work locally. The user decides whether to use the live currency conversion path that triggers a one-time rate request.</p></article>
+    <section class="section">
+      <div class="container">
+        <div class="section__panel article-prose">
+          <h2>Exchange-rate source</h2>
+          <p>The Money calculator can request exchange-rate data from Frankfurter at <code>api.frankfurter.dev</code>. The app displays the provider and available update context so users understand the source behind live conversion results.</p>
+          <h2>Local formulas and calculations</h2>
+          <p>Calculator formulas, unit conversions, number analysis, graphing, geometry, time, and finance helper outputs are app-generated utility results. Users remain responsible for verifying high-impact calculations before relying on them.</p>
+          <h2>Questions</h2>
+          <p>For content-rights questions, contact <a href="mailto:trentshurts@gmail.com?subject=Great%20Calculator%20Content%20Rights%20Question">trentshurts@gmail.com</a>.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="section__panel">
-        <div class="section__header"><span class="kicker">Exchange-rate provider</span><h2>Public explanation of the provider relationship</h2></div>
-        <div class="detail-grid">
-          <div class="article-prose">
-            <p>The app identifies Frankfurter as the exchange-rate provider for the optional Currency workflow. The provider is used to retrieve exchange-rate data needed to display user-requested conversion results.</p>
-            <ul>
-              <li>Provider: Frankfurter (<code>api.frankfurter.dev</code>)</li>
-              <li>Use: user-requested exchange-rate lookup for currency conversion</li>
-              <li>Mode: optional and on demand</li>
-              <li>Processing: the amount calculation is handled in the app after the rate is returned</li>
-            </ul>
-            <p>Questions about privacy, support, or public disclosure can be directed to the support page for Great Calculator.</p>
-          </div>
-          <aside class="contact-card card--success">
-            <h3>Why this page exists</h3>
-            <p>This page provides a stable public explanation of the app’s third-party content path and supports the Content Rights information maintained in App Store Connect.</p>
-          </aside>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="section__panel">
-        <div class="section__header"><span class="kicker">Related pages</span><h2>More public information</h2></div>
-        <div class="link-grid">
-          <a class="link-card" href="../privacy/"><span class="link-card__eyebrow">Privacy</span><h3>Privacy Policy</h3><p>Details about optional network requests and local data handling.</p></a>
-          <a class="link-card" href="../support/"><span class="link-card__eyebrow">Support</span><h3>Support</h3><p>Public contact route for questions about the app or its data sources.</p></a>
-          <a class="link-card" href="../eula/"><span class="link-card__eyebrow">Legal</span><h3>License Agreement</h3><p>Public reference page for the app’s license terms.</p></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
+    </section>
   </main>
   <footer>
     <div class="container">
@@ -121,7 +71,15 @@
           Effective date: April 15, 2026
         </div>
         <div class="footer-links">
-          <a href="../features/">Features</a><a href="../privacy/">Privacy</a><a href="../privacy-choices/">Privacy Choices</a><a href="../support/">Support</a><a href="../accessibility/">Accessibility</a><a href="../age-suitability/">Age Suitability</a><a href="../eula/">License Agreement</a><a href="../content-rights/">Content Rights</a><a href="mailto:trentshurts@gmail.com?subject=Great%20Calculator%20Support">Email Support</a>
+          <a href="../features/">Features</a>
+          <a href="../privacy/">Privacy</a>
+          <a href="../privacy-choices/">Privacy Choices</a>
+          <a href="../support/">Support</a>
+          <a href="../accessibility/">Accessibility</a>
+          <a href="../age-suitability/">Age Suitability</a>
+          <a href="../license-agreement/">License Agreement</a>
+          <a href="../content-rights/">Content Rights</a>
+          <a href="mailto:trentshurts@gmail.com?subject=Great%20Calculator%20Support">Email Support</a>
         </div>
       </div>
     </div>
