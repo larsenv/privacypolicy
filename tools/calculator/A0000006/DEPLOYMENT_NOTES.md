@@ -1,24 +1,29 @@
 # Great Calculator public site deployment notes
 
-This website package has been upgraded to align the public site with the actual Great Calculator app surface and to improve App Store readiness.
+This website package has been updated for Great Calculator’s official iPhone and iPad support posture.
+
+## Current website revision marker
+
+- `2026-05-02-a0000006-iphone-public-pages-v113`
+- Effective date: May 2, 2026
 
 ## Included public pages
 
 - Marketing URL: `/index.html` or `/`
+- Feature guide: `/features/`
 - Privacy Policy URL: `/privacy/`
+- User Privacy Choices URL: `/privacy-choices/`
 - Support URL: `/support/`
 - Accessibility URL: `/accessibility/`
-- User Privacy Choices URL (optional): `/privacy-choices/`
-- Age Suitability URL (optional): `/age-suitability/`
-- Public License Agreement reference: `/eula/`
+- Age Suitability URL: `/age-suitability/`
+- Public License Agreement: `/eula/`
+- License reference: `/license-agreement/`
 - Public Content Rights reference: `/content-rights/`
 
-## Notes
+## Release notes
 
-- The site now includes dedicated public pages for age suitability, license terms, and content-rights transparency alongside the existing privacy, support, accessibility, and privacy-choices pages.
-- The Features and home pages were refreshed so the public website matches the app more closely, including Graphing panels, Numbers Features, and the Between Dates workflow.
-- The support page no longer carries provisional placeholder language about missing public pages.
-
-## Current website revision marker
-
-- `2026-04-15-a0000006-appstore-website-refresh`
+- iPhone support is now stated clearly across the site.
+- The support page now invites bug reports, calculation issues, layout reports, accessibility feedback, and feature requests.
+- The landing page now includes a clear statement that the developer actively reviews requests and continues updating the application for accuracy, reliability, efficiency, and user experience.
+- Public privacy copy distinguishes app behavior from website hosting behavior.
+- The calculator hub page one level above this site now links correctly to `A0000006/` instead of the previous misspelled `ndex.html` path.

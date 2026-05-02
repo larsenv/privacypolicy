@@ -22,6 +22,9 @@
     <loc>__BASE_URL__/age-suitability/</loc>
   </url>
   <url>
+    <loc>__BASE_URL__/eula/</loc>
+  </url>
+  <url>
     <loc>__BASE_URL__/license-agreement/</loc>
   </url>
   <url>

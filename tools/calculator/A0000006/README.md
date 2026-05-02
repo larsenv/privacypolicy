@@ -1,8 +1,15 @@
-# Great Calculator Public Web Content
+# Great Calculator public site
 
-This directory contains the public static website content for **Great Calculator**.
-It is designed to support the app’s public-facing marketing, privacy, privacy choices,
-support, and accessibility links.
+This directory contains the current public website for **Great Calculator**, a local-first all-in-one calculator app for iPhone and iPad.
+
+It is designed to support the app’s public-facing marketing, privacy, privacy choices, support, accessibility, age-suitability, license, and content-rights links.
+
+## Current revision
+
+- Revision marker: `2026-05-02-a0000006-iphone-public-pages-v113`
+- Effective date: May 2, 2026
+- Canonical hosted base URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/`
+- Landing page / Marketing URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/`
 
 ## Included pages
 
@@ -10,82 +17,30 @@ support, and accessibility links.
 - `features/index.html` — detailed feature guide
 - `privacy/index.html` — privacy policy
 - `privacy-choices/index.html` — privacy choices page
-- `support/index.html` — support page
-- `accessibility/index.html` — accessibility page
+- `support/index.html` — support and feature-request page
+- `accessibility/index.html` — accessibility posture and test checklist
 - `age-suitability/index.html` — age-rating context page
-- `license-agreement/index.html` — license agreement reference page
-- `content-rights/index.html` — content and data-source rights page
-- `404.html` — custom not-found page
-- `assets/` — CSS, icons, and social image
-- `.nojekyll` — disables unwanted Jekyll processing on GitHub Pages
-- `site.webmanifest` — browser metadata
-- `robots.txt` — crawl rules for the current live base URL
-- `robots.txt.template` — template for future hosted roots
-- `sitemap.xml.template` — template for future hosted roots
-- `CNAME.template` — optional custom-domain helper
+- `license-agreement/index.html` — license reference page
+- `eula/index.html` — full public license terms
+- `content-rights/index.html` — content and external data-source rights page
+- `404.html` — not-found page
 
-## Why this content exists
+Redirect wrappers such as `privacy-policy.html`, `support.html`, and `features.html` are retained so older App Store metadata, browser bookmarks, and in-app links do not break.
 
-Use these pages for:
+## Commercial-grade positioning updates
 
-- the app’s public **Marketing URL**
-- the app’s public **Privacy Policy URL**
-- the app’s public **Support URL**
-- the app’s optional **Accessibility URL**
-- the app’s optional **User Privacy Choices URL**
-- in-app links that open public support, privacy, and marketing pages
+This revision makes the iPhone launch explicit, removes ambiguous or stale wording, strengthens the product positioning, and clearly states that the developer actively reviews bug reports and feature requests while continuing to update the application for accuracy, reliability, efficiency, and user experience.
 
-## Re-apply the active hosted URLs
+## App Store-facing URLs
 
-From the repository root, run:
+Use these URLs in App Store Connect and in-app metadata:
 
-```bash
-python3 scripts/configure_public_urls.py https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/
-```
-
-With a custom domain:
-
-```bash
-python3 scripts/configure_public_urls.py https://privacy.example.com --cname privacy.example.com
-```
-
-That script updates:
-
-- `App/Info.plist`
-- `Docs/PublicWeb/sitemap.xml`
-- `Docs/PublicWeb/robots.txt`
-- `Docs/PublicWeb/CNAME` (if `--cname` is supplied)
-
-## Current hosted URLs
-
-- Landing page / Marketing URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/`
-- Features: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/features/`
+- Marketing: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/`
 - Privacy Policy: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy/`
 - Support: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/support/`
 - Accessibility: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/accessibility/`
 - Privacy Choices: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy-choices/`
-- Age Suitability: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/age-suitability/`
-- License Agreement: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/license-agreement/`
-- Content Rights: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/content-rights/`
 
-## Fast export
+## Maintenance notes
 
-To export a clean deployable copy of the public website bundle without mutating the repository, run:
-
-```bash
-python3 build_privacy_site.py --output-dir /tmp/GreatCalculatorPublicWeb
-```
-
-With a live base URL and ZIP artifact:
-
-```bash
-python3 build_privacy_site.py --base-url https://<owner>.github.io/<repo> --zip-path /tmp/greatcalculator-public-web.zip
-```
-
-## Release-compliance companions
-
-For App Store Connect completion, pair this public-web bundle with:
-
-- `Docs/AppStore_Connect_Compliance_Worksheet_v88.md`
-- `Docs/Age_Rating_Worksheet_v88.md`
-- `Docs/Accessibility_Nutrition_Label_Worksheet_v88.md`
+Keep this public website synchronized with the shipping app. Update the site if calculator modes, platform support, orientation support, network behavior, privacy behavior, accessibility claims, support contacts, or legal terms change.
