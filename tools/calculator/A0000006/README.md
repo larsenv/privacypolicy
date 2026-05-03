@@ -6,10 +6,11 @@ It is designed to support the app’s public-facing marketing, privacy, privacy 
 
 ## Current revision
 
-- Revision marker: `2026-05-02-a0000006-iphone-public-pages-v113`
+- Revision marker: `2026-05-03-a0000006-app-store-link-v115`
 - Effective date: May 2, 2026
 - Canonical hosted base URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/`
 - Landing page / Marketing URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/`
+- App Store URL: `https://apps.apple.com/us/app/great-calculator/id6761633974`
 
 ## Included pages
 
@@ -29,7 +30,7 @@ Redirect wrappers such as `privacy-policy.html`, `support.html`, and `features.h
 
 ## Commercial-grade positioning updates
 
-This revision makes the iPhone launch explicit, removes ambiguous or stale wording, strengthens the product positioning, and clearly states that the developer actively reviews bug reports and feature requests while continuing to update the application for accuracy, reliability, efficiency, and user experience.
+This revision makes the iPhone launch explicit, removes ambiguous or stale wording, strengthens the product positioning, adds the public App Store product-page link, and clearly states that the developer actively reviews bug reports and feature requests while continuing to update the application for accuracy, reliability, efficiency, and user experience.
 
 ## App Store-facing URLs
 
@@ -40,6 +41,7 @@ Use these URLs in App Store Connect and in-app metadata:
 - Support: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/support/`
 - Accessibility: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/accessibility/`
 - Privacy Choices: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy-choices/`
+- App Store: `https://apps.apple.com/us/app/great-calculator/id6761633974`
 
 ## Maintenance notes
 

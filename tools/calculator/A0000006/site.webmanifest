@@ -17,5 +17,11 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/us/app/great-calculator/id6761633974"
+    }
   ]
 }
