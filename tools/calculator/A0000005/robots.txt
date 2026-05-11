@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000005/sitemap.xml

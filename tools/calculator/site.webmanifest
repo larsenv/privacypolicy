@@ -1,0 +1,9 @@
+{
+  "name": "TrustedFriend Projects",
+  "short_name": "TrustedFriend",
+  "description": "Public app project directory for TrustedFriend apps.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#2563eb"
+}

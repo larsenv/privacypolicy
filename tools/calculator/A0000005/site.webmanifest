@@ -1,11 +1,11 @@
 {
   "name": "Project Countdown Public Information",
   "short_name": "Project Countdown",
-  "description": "Public privacy, privacy choices, support, and accessibility information for Project Countdown.",
+  "description": "Public product, privacy, support, accessibility, and legal information for Project Countdown.",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f4f5f9",
-  "theme_color": "#356bf1",
+  "background_color": "#f5f7fb",
+  "theme_color": "#0ea5e9",
   "icons": [
     {
       "src": "assets/icons/app-icon-192.png",
