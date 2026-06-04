@@ -1,48 +1,19 @@
-# Great Calculator public site
+# Project Milepost public website — A0000006
 
-This directory contains the current public website for **Great Calculator**, a local-first all-in-one calculator app for iPhone and iPad.
+This directory contains the current Project Milepost public website pages for App Store metadata, user support, privacy disclosures, privacy choices, accessibility information, age suitability information, content rights, and license/terms references.
 
-It is designed to support the app’s public-facing marketing, privacy, privacy choices, support, accessibility, age-suitability, license, and content-rights links.
+Current release alignment:
 
-## Current revision
+- App: Project Milepost
+- Project ID: A0000006
+- Version: 1.2
+- Build: 31
+- Effective date: June 4, 2026
+- Model: Free download with Google AdMob banner ads and optional one-time Remove Ads purchase
 
-- Revision marker: `2026-05-03-a0000006-app-store-link-v115`
-- Effective date: May 2, 2026
-- Canonical hosted base URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/`
-- Landing page / Marketing URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/`
-- App Store URL: `https://apps.apple.com/us/app/great-calculator/id6761633974`
+Primary App Store Connect URLs:
 
-## Included pages
-
-- `index.html` — product landing page / marketing URL
-- `features/index.html` — detailed feature guide
-- `privacy/index.html` — privacy policy
-- `privacy-choices/index.html` — privacy choices page
-- `support/index.html` — support and feature-request page
-- `accessibility/index.html` — accessibility posture and test checklist
-- `age-suitability/index.html` — age-rating context page
-- `license-agreement/index.html` — license reference page
-- `eula/index.html` — full public license terms
-- `content-rights/index.html` — content and external data-source rights page
-- `404.html` — not-found page
-
-Redirect wrappers such as `privacy-policy.html`, `support.html`, and `features.html` are retained so older App Store metadata, browser bookmarks, and in-app links do not break.
-
-## Commercial-grade positioning updates
-
-This revision makes the iPhone launch explicit, removes ambiguous or stale wording, strengthens the product positioning, adds the public App Store product-page link, and clearly states that the developer actively reviews bug reports and feature requests while continuing to update the application for accuracy, reliability, efficiency, and user experience.
-
-## App Store-facing URLs
-
-Use these URLs in App Store Connect and in-app metadata:
-
-- Marketing: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/`
-- Privacy Policy: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy/`
-- Support: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/support/`
-- Accessibility: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/accessibility/`
-- Privacy Choices: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy-choices/`
-- App Store: `https://apps.apple.com/us/app/great-calculator/id6761633974`
-
-## Maintenance notes
-
-Keep this public website synchronized with the shipping app. Update the site if calculator modes, platform support, orientation support, network behavior, privacy behavior, accessibility claims, support contacts, or legal terms change.
+- Support URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/support/`
+- Privacy Policy URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy/`
+- User Privacy Choices URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy-choices/`
+- Age Suitability URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/age-suitability/`
