@@ -1,6 +1,6 @@
 # app-ads.txt setup for Project Milepost
 
-Project Milepost uses Google AdMob banner advertising in Build 31.
+Project Milepost uses Google AdMob compact top banner advertising in Build 40.
 
 Before public release:
 

@@ -1,6 +1,6 @@
 # Project Milepost — Apple Age Rating Answers
 
-Use these answers for Project Milepost version 1.2, build 31, assuming the submitted app matches the Build 31 plan: date tracker, optional Calendar import, optional local photos, bundled history milestones, Google AdMob banner advertising, and a one-time Remove Ads purchase.
+Use these answers for Project Milepost version 1.4, build 40, assuming the submitted app matches the Build 40 plan: date tracker, optional Calendar import, optional local photos, bundled history milestones, Google AdMob compact top banner advertising, and a one-time Remove Ads purchase.
 
 Important: answer the questionnaire based on the exact build you submit. If the app adds public sharing, chat, unrestricted web browsing, mature historical text, violent imagery, contests, gambling, health advice, or other new content, review these answers again before submission.
 
@@ -21,7 +21,7 @@ Important: answer the questionnaire based on the exact build you submit. If the 
 | Unrestricted Web Access | No | The app does not provide a browser that lets users freely browse the web. |
 | User-Generated Content | No | Users create local personal events, but there is no public user content system. |
 | Messaging and Chat | No | The app has no user-to-user communication. |
-| Advertising | Yes | Build 31 includes Google AdMob banner advertising unless Remove Ads is active. |
+| Advertising | Yes | Build 40 includes Google AdMob compact top banner advertising unless Remove Ads is active. |
 | Profanity or Crude Humor | None | The app is not intended to include this content. |
 | Horror or Fear Themes | None | The app is not intended to include this content. |
 | Alcohol, Tobacco, or Drug Use or References | None | The app is not intended to include this content. |
@@ -49,3 +49,8 @@ Paste this value:
 `2026 Trenten Shurts`
 
 Do not include the copyright symbol in the field. Apple adds the symbol automatically.
+
+
+## Ad reporting
+
+Project Milepost includes Menu > Ads > Report an Ad so users can report inappropriate or age-inappropriate advertising. The report action opens an email addressed to the support contact with a prefilled subject and instructions.

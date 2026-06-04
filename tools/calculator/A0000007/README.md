@@ -10,14 +10,15 @@ Current App Store Connect paste values:
 - Privacy Policy URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy/`
 - User Privacy Choices URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy-choices/`
 - Age Suitability URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/age-suitability/`
+- End User License Agreement URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/eula/`
 
 Release alignment:
 
 - App: Project Milepost
 - Marketing project page: A0000007
 - Policy/support/legal project page: A0000006
-- Version: 1.2
-- Build: 31
+- Version: 1.4
+- Build: 40
 - Model: Free download with Google AdMob banner ads and optional one-time Remove Ads purchase
 - Effective date: June 4, 2026
 
