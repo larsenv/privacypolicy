@@ -229,3 +229,8 @@ hr.rule { border: 0; border-top: 1px solid var(--border); margin: 1.2rem 0; }
 .url-table th, .url-table td { text-align: left; padding: 0.75rem; border-bottom: 1px solid var(--border); vertical-align: top; }
 .url-table th { color: var(--muted-strong); }
 @media (max-width: 720px) { .url-table, .url-table tbody, .url-table tr, .url-table th, .url-table td { display: block; width: 100%; } .url-table th { padding-bottom: 0.25rem; } .url-table td { padding-top: 0; } }
+
+.table-wrap { overflow-x: auto; margin-top: 1rem; }
+table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+th, td { text-align: left; vertical-align: top; padding: 0.8rem; border-bottom: 1px solid rgba(148, 163, 184, 0.35); }
+th { font-weight: 800; }
