@@ -1,4 +1,0 @@
-# Project Milepost app-ads.txt template
-# Replace pub-REPLACE_WITH_YOUR_GOOGLE_PUBLISHER_VALUE with your real Google publisher value from Google AdMob.
-# After replacing it, save this file as app-ads.txt at the root level of the public developer website domain.
-google.com, pub-REPLACE_WITH_YOUR_GOOGLE_PUBLISHER_VALUE, DIRECT, f08c47fec0942fa0
